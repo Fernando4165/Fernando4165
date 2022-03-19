@@ -1,8 +1,3 @@
-void mgotoxy(int x, int y)
-{
-    SetControleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),(COORD){x,y})
-}
-
 {
     int x,seta=2,cx[300]={1,2},cy[300{7,7},t=1,mx,my;
     char tecla='a';
